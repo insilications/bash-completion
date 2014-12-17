@@ -1,0 +1,13 @@
+diff --git a/Makefile.am b/Makefile.am
+index dbbba0c..7058ecc 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -5,7 +5,7 @@ pkgdata_DATA = bash_completion
+ # Empty, but here just to get the compat dir created with install
+ compat_DATA =
+ 
+-profiledir = $(sysconfdir)/profile.d
++profiledir = $(datadir)/defaults/etc/profile.d
+ profile_DATA = bash_completion.sh
+ 
+ pkgconfigdir = $(datadir)/pkgconfig

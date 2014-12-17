@@ -1,0 +1,10 @@
+/usr/share/bash-completion/completions/cal
+/usr/share/bash-completion/completions/dmesg
+/usr/share/bash-completion/completions/eject
+/usr/share/bash-completion/completions/hexdump
+/usr/share/bash-completion/completions/hwclock
+/usr/share/bash-completion/completions/ionice
+/usr/share/bash-completion/completions/look
+/usr/share/bash-completion/completions/renice
+/usr/share/bash-completion/completions/rtcwake
+/usr/share/bash-completion/completions/su

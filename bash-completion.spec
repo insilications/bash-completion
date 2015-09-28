@@ -4,7 +4,7 @@
 #
 Name     : bash-completion
 Version  : 2.1
-Release  : 11
+Release  : 12
 URL      : http://bash-completion.alioth.debian.org/files/bash-completion-2.1.tar.bz2
 Source0  : http://bash-completion.alioth.debian.org/files/bash-completion-2.1.tar.bz2
 Summary  : programmable completion for the bash shell

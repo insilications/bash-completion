@@ -4,7 +4,7 @@
 #
 Name     : bash-completion
 Version  : 2.1
-Release  : 13
+Release  : 15
 URL      : http://bash-completion.alioth.debian.org/files/bash-completion-2.1.tar.bz2
 Source0  : http://bash-completion.alioth.debian.org/files/bash-completion-2.1.tar.bz2
 Summary  : programmable completion for the bash shell
@@ -41,6 +41,7 @@ data components for the bash-completion package.
 Summary: dev components for the bash-completion package.
 Group: Development
 Requires: bash-completion-data
+Provides: bash-completion-devel
 
 %description dev
 dev components for the bash-completion package.
@@ -52,9 +53,12 @@ dev components for the bash-completion package.
 
 %build
 %reconfigure --disable-static
-make V=1 %{?_smp_mflags}
+make V=1  %{?_smp_mflags}
 
 %check
+export http_proxy=http://127.0.0.1:9/
+export https_proxy=http://127.0.0.1:9/
+export no_proxy=localhost
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
@@ -73,9 +77,11 @@ rm -rf %{buildroot}
 %exclude /usr/share/bash-completion/completions/hwclock
 %exclude /usr/share/bash-completion/completions/ionice
 %exclude /usr/share/bash-completion/completions/look
+%exclude /usr/share/bash-completion/completions/mount
 %exclude /usr/share/bash-completion/completions/renice
 %exclude /usr/share/bash-completion/completions/rtcwake
 %exclude /usr/share/bash-completion/completions/su
+%exclude /usr/share/bash-completion/completions/umount
 /usr/share/bash-completion/bash_completion
 /usr/share/bash-completion/completions/a2x
 /usr/share/bash-completion/completions/abook
@@ -372,7 +378,6 @@ rm -rf %{buildroot}
 /usr/share/bash-completion/completions/mogrify
 /usr/share/bash-completion/completions/monodevelop
 /usr/share/bash-completion/completions/montage
-/usr/share/bash-completion/completions/mount
 /usr/share/bash-completion/completions/mount.linux
 /usr/share/bash-completion/completions/mplayer
 /usr/share/bash-completion/completions/mplayer2
@@ -565,7 +570,6 @@ rm -rf %{buildroot}
 /usr/share/bash-completion/completions/tshark
 /usr/share/bash-completion/completions/tune2fs
 /usr/share/bash-completion/completions/typeset
-/usr/share/bash-completion/completions/umount
 /usr/share/bash-completion/completions/umount.linux
 /usr/share/bash-completion/completions/unace
 /usr/share/bash-completion/completions/unpack200

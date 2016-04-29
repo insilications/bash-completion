@@ -8,3 +8,5 @@
 /usr/share/bash-completion/completions/renice
 /usr/share/bash-completion/completions/rtcwake
 /usr/share/bash-completion/completions/su
+/usr/share/bash-completion/completions/mount
+/usr/share/bash-completion/completions/umount

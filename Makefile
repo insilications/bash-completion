@@ -1,5 +1,5 @@
 PKG_NAME := bash-completion
-URL := http://bash-completion.alioth.debian.org/files/bash-completion-2.1.tar.bz2
-ARCHIVES :=
+URL := https://github.com/scop/bash-completion/archive/2.5.tar.gz
+
 
 include ../common/Makefile.common

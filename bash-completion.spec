@@ -4,7 +4,7 @@
 #
 Name     : bash-completion
 Version  : 2.5
-Release  : 18
+Release  : 19
 URL      : https://github.com/scop/bash-completion/archive/2.5.tar.gz
 Source0  : https://github.com/scop/bash-completion/archive/2.5.tar.gz
 Summary  : programmable completion for the bash shell

@@ -6,7 +6,7 @@
 #
 Name     : bash-completion
 Version  : 2.8
-Release  : 24
+Release  : 25
 URL      : https://github.com/scop/bash-completion/releases/download/2.8/bash-completion-2.8.tar.xz
 Source0  : https://github.com/scop/bash-completion/releases/download/2.8/bash-completion-2.8.tar.xz
 Source99 : https://github.com/scop/bash-completion/releases/download/2.8/bash-completion-2.8.tar.xz.sig

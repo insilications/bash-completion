@@ -4,7 +4,7 @@
 #
 Name     : bash-completion
 Version  : 2.11
-Release  : 30
+Release  : 31
 URL      : https://github.com/scop/bash-completion/releases/download/2.11/bash-completion-2.11.tar.xz
 Source0  : https://github.com/scop/bash-completion/releases/download/2.11/bash-completion-2.11.tar.xz
 Summary  : Programmable completion for the bash shell

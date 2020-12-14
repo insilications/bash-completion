@@ -4,7 +4,7 @@
 #
 Name     : bash-completion
 Version  : 2.11
-Release  : 31
+Release  : 32
 URL      : https://github.com/scop/bash-completion/releases/download/2.11/bash-completion-2.11.tar.xz
 Source0  : https://github.com/scop/bash-completion/releases/download/2.11/bash-completion-2.11.tar.xz
 Summary  : Programmable completion for the bash shell
@@ -65,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1595881492
+export SOURCE_DATE_EPOCH=1607976405
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
@@ -75,7 +75,7 @@ export CXXFLAGS="$CXXFLAGS -fno-lto "
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1595881492
+export SOURCE_DATE_EPOCH=1607976405
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/bash-completion
 cp %{_builddir}/bash-completion-2.11/COPYING %{buildroot}/usr/share/package-licenses/bash-completion/06877624ea5c77efe3b7e39b0f909eda6e25a4ec

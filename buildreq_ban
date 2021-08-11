@@ -2,6 +2,3 @@
 # undesirable. One entry per line, no whitespace.
 apache-ant
 buildreq-mvn
-dejagnu
-expect
-tcl

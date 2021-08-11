@@ -1,5 +1,6 @@
 PKG_NAME := bash-completion
-URL = https://github.com/scop/bash-completion/releases/download/2.11/bash-completion-2.11.tar.xz
+URL = https://github.com/scop/bash-completion.git
 ARCHIVES = 
+ARCHIVES_GIT = 
 
 include ../common/Makefile.common

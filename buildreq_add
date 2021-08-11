@@ -1,2 +1,15 @@
 # This file contains additional build requirements that did not get
 # picked up automatically. One name per line, no whitespace.
+automake
+automake-dev
+dejagnu
+expect
+gettext-bin
+libtool
+libtool-dev
+m4
+pexpect
+pkg-config-dev
+pytest
+sed
+tcl
